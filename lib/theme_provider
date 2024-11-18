@@ -1,0 +1,55 @@
+// import 'package:flutter/material.dart';
+
+// class ThemeProvider with ChangeNotifier {
+//   // Default theme is A
+//   ThemeData _currentTheme = ThemeData.light();
+//   TextStyle _currentFont = TextStyle(fontFamily: 'Roboto');
+
+//   // Getter untuk theme dan font
+//   ThemeData get currentTheme => _currentTheme;
+//   TextStyle get currentFont => _currentFont;
+
+//   // Fungsi untuk mengubah theme
+//   void setTheme(int themeIndex) {
+//     switch (themeIndex) {
+//       case 0:
+//         _currentTheme = ThemeData.light().copyWith(
+//           primaryColor: Colors.blue,
+//           accentColor: Colors.orange,
+//           buttonTheme: ButtonThemeData(buttonColor: Colors.blue),
+//         );
+//         break;
+//       case 1:
+//         _currentTheme = ThemeData.dark().copyWith(
+//           primaryColor: Colors.red,
+//           accentColor: Colors.green,
+//           buttonTheme: ButtonThemeData(buttonColor: Colors.red),
+//         );
+//         break;
+//       case 2:
+//         _currentTheme = ThemeData(
+//           primaryColor: Colors.teal,
+//           accentColor: Colors.purple,
+//           buttonTheme: ButtonThemeData(buttonColor: Colors.teal),
+//         );
+//         break;
+//     }
+//     notifyListeners();
+//   }
+
+//   // Fungsi untuk mengubah font
+//   void setFont(int fontIndex) {
+//     switch (fontIndex) {
+//       case 0:
+//         _currentFont = TextStyle(fontFamily: 'Roboto');
+//         break;
+//       case 1:
+//         _currentFont = TextStyle(fontFamily: 'Lato');
+//         break;
+//       case 2:
+//         _currentFont = TextStyle(fontFamily: 'Poppins');
+//         break;
+//     }
+//     notifyListeners();
+//   }
+// }
