@@ -45,21 +45,21 @@ class SettingsScreen extends StatelessWidget {
               style: TextStyle(fontFamily: themeFontProvider.currentFont),
             ),
             ListTile(
-              title: Text('Roboto'),
+              title: Text('Courier'),
               onTap: () {
-                themeFontProvider.setFont('Roboto');
+                themeFontProvider.setFont('Courier');
               },
             ),
             ListTile(
-              title: Text('Arial'),
+              title: Text('Lobster'),
               onTap: () {
-                themeFontProvider.setFont('Arial');
+                themeFontProvider.setFont('Lobster');
               },
             ),
             ListTile(
-              title: Text('Times New Roman'),
+              title: Text('Georgia'),
               onTap: () {
-                themeFontProvider.setFont('Times New Roman');
+                themeFontProvider.setFont('Georgia');
               },
             ),
           ],

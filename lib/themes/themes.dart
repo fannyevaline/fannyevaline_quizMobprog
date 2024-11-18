@@ -7,11 +7,11 @@ final ThemeData lightTheme = ThemeData(
   buttonTheme: ButtonThemeData(buttonColor: Colors.blue),
   textTheme: TextTheme(
     titleLarge: TextStyle(
-      fontFamily: 'Roboto',
+      fontFamily: 'Courier',
       color: Colors.black,
     ),
     bodyLarge: TextStyle(
-      fontFamily: 'Roboto',
+      fontFamily: 'Courier',
       color: Colors.black,
     ),
   ),
@@ -24,11 +24,11 @@ final ThemeData darkTheme = ThemeData(
   buttonTheme: ButtonThemeData(buttonColor: Colors.green),
   textTheme: TextTheme(
     titleLarge: TextStyle(
-      fontFamily: 'Roboto',
+      fontFamily: 'Courier',
       color: Colors.white,
     ),
     bodyLarge: TextStyle(
-      fontFamily: 'Roboto',
+      fontFamily: 'Courier',
       color: Colors.white,
     ),
   ),
@@ -41,11 +41,11 @@ final ThemeData pastelTheme = ThemeData(
   buttonTheme: ButtonThemeData(buttonColor: Colors.pinkAccent),
   textTheme: TextTheme(
     titleLarge: TextStyle(
-      fontFamily: 'Roboto',
+      fontFamily: 'Courier',
       color: Colors.pink[800],
     ),
     bodyLarge: TextStyle(
-      fontFamily: 'Roboto',
+      fontFamily: 'Courier',
       color: Colors.pink[800],
     ),
   ),
